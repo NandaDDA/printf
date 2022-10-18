@@ -73,7 +73,7 @@ count += hex_print(str[i]);
 else
 {
 _putchar(str[i]);
-count++
+count++;
 }
 }
 return (count);

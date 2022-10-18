@@ -51,7 +51,7 @@ while (format[i])
 for (; format[i] != '%' && format[i]; i++)
 {
 _putchar(format[i]);
-count++;
+count++ ;
 }
 if (!format[i])
 return (count);

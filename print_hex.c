@@ -77,7 +77,7 @@ return (ans);
  */
 int print_p(va_list p)
 {
-nt count = 0;
+int count = 0;
 unsigned int a[16];
 unsigned int i, sum;
 unsigned long n, m;
@@ -87,7 +87,7 @@ if (n == 0)
 {
 for (i = 0; str[i]; i++)
 {
-putchar(str[i]);
+_putchar(str[i]);
 count++;
 }
 return (count);

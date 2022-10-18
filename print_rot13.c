@@ -21,7 +21,7 @@ for (j = 0; in[j]; j++)
 {
 if (in[j] == str[i])
 {
-putchar(out[j]);
+_putchar(out[j]);
 count++;
 break;
 }
